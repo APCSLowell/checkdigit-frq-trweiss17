@@ -30,9 +30,11 @@ public class CheckDigit
      if(check == newCheck){
        return true;
      }
-   }
+     else
+     {
   return false;
-   }    
+   }
+   }
    
    /** Returns the number of digits in num. */    
    public static int getNumberOfDigits(int num)    
